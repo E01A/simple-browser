@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="postline">#c85e64</color>
+    <color name="black">#000000</color>
+    <color name="post_bg">#eeeeee</color>
+    <color name="date_color">#c75e64</color>
+    <color name="slider_bg">#f5e2e7</color>
+    <item name="customred" type="color">#c85e64</item>
+    <item name="MainBasecolor" type="color">#555555</item>
+    <color name="slider_text_color">#868686</color>
+    <item name="ColorPrimary" type="color">#1c75bc</item>
+    <color name="White">#ffffff</color>
+    <color name="contact_edit_color">#414247</color>
+    <color name="colorPrimari">#05c3f9</color>
+    <color name="colorPrimaryDarki">#0691b8</color>
+    <color name="white">#ffffff</color>
+    <color name="yello">#FFA000</color>
+    <color name="colorPrimaryText">#050505</color>
+    <color name="lightgray">#ededed</color>
+    <color name="graylight">#fafafa</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endtblue">#0bcce6</color>
+    <color name="blue">#05c3f9</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="rippleEffectColor">#f816a463</color>
+    <color name="btnSignIn">#1fbad6</color>
+    <color name="btnRegister">#83838c</color>
+    <color name="bottomText">#6b6b76</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSelected">#803F64B5</color>
+    <!-- colorFirst same as cardsColor -->
+    <color name="colorFirst">#F0F0F0</color>
+    <color name="colorSecond">#C0C0C0</color>
+    <color name="cardsColor">#F0F0F0</color>
+    <color name="alertWindowColor">#F7F7F7</color>
+    <color name="buttonColor">#444444</color>
+    <color name="buttonColorFocusedHighlight">#4E747B</color>
+    <color name="buttonColorFocusedHighlightStroke">#00E5FF</color>
+    <color name="buttonColorPressedHighlight">#C8C8C8</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="textModuleStatusColorAlert">#B00020</color>
+    <color name="textModuleStatusColorStopped">#444444</color>
+    <color name="textModuleStatusColorStarting">#1A237E</color>
+    <color name="textModuleStatusColorStopping">#1A237E</color>
+    <color name="textModuleStatusColorRunning">#009688</color>
+    <color name="textModuleStatusColorInstalling">#1A237E</color>
+    <color name="textModuleStatusColorInstalled">#009688</color>
+    <color name="customBorderColor">#9e9e9e</color>
+    <color name="itemDividerColor">#9e9e9e</color>
+    <color name="buttonItemColorFocusedHighlight">#C8C8C8</color>
+    <color name="mainStartButtonColorStart">#9e9e9e</color>
+    <color name="mainStartButtonColorEnd">#C8C8C8</color>
+    <color name="mainStartButtonColorActive">#64B5F6</color>
+    <color name="colorAlert">#FF5252</color>
+    <color name="chipColorFocused">#2A3F43</color>
+
+
+    <color name="greenPrimary">#5CDB95</color>
+    <color name="greenPrimaryDark">#379683</color>
+    <color name="greenAccent">#8EE4AF</color>
+    <color name="bluePrimary">@android:color/holo_blue_light</color>
+    <color name="bluePrimaryDark">@android:color/holo_blue_dark</color>
+    <color name="blueAccent">@android:color/holo_blue_bright</color>
+    <color name="orangePrimary">@android:color/holo_orange_light</color>
+    <color name="orangePrimaryDark">@android:color/holo_orange_dark</color>
+    <color name="orangeAccent">@android:color/black</color>
+
+    <color name="colorTransBg">#26000000</color>
+
+</resources>

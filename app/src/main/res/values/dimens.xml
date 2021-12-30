@@ -1,0 +1,36 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">80dp</dimen>
+    <dimen name="run_btns_side_margin">40dp</dimen>
+    <dimen name="run_btns_top_margin">4dp</dimen>
+    <dimen name="run_btns_min_width">40dip</dimen>
+    <dimen name="status_text_margin">4dp</dimen>
+    <dimen name="start_btns_text_size">17sp</dimen>
+    <dimen name="top_text_size">15sp</dimen>
+    <dimen name="status_text_size">15sp</dimen>
+    <dimen name="fragment_log_text_size">12sp</dimen>
+    <dimen name="fragment_file_log_text_size">15sp</dimen>
+    <dimen name="fragment_counry_select_text_size">17sp</dimen>
+
+    <dimen name="standard_12">12dp</dimen>
+    <dimen name="standard_23">23dp</dimen>
+    <dimen name="standard_55">55dp</dimen>
+    <dimen name="standard_75">75dp</dimen>
+    <dimen name="standard_100">100dp</dimen>
+    <dimen name="standard_145">145dp</dimen>
+    <dimen name="standard_190">190dp</dimen>
+    <dimen name="standard_235">235dp</dimen>
+    <dimen name="standard_280">280dp</dimen>
+    <dimen name="standard_325">325dp</dimen>
+    <dimen name="standard_370">370dp</dimen>
+    <dimen name="standard_415">415dp</dimen>
+    <dimen name="standard_460">460dp</dimen>
+    <dimen name="standard_505">505dp</dimen>
+    <dimen name="standard_550">550dp</dimen>
+
+</resources>
