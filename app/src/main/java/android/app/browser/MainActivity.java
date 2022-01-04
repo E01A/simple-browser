@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     protected final List<String> mPermittedHostnames = new LinkedList<String>();
     WebSettings settings;
     private long pressedTime;
-    private AlertDialog alertDialog;
+   
     private ProgressDialog progressBar;
 
  @SuppressLint("RtlHardcoded")
@@ -362,7 +362,7 @@ public class MainActivity extends AppCompatActivity {
   private void initWebView(WebView webView) {
       viewAdded = false;
       imgview.setVisibility(View.GONE);
-      alertDialog = new AlertDialog.Builder(this).create();
+      
       progressBar = ProgressDialog.show(MainActivity.this,null,"   Please Wait ...");
       settings = webView.getSettings();
       settings.setUserAgentString(ua);
@@ -548,15 +548,22 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
           Toast.makeText(MainActivity.this,"Error "+ description,Toast.LENGTH_SHORT).show();
+          
+
+          AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
           alertDialog.setTitle("ERROR");
           alertDialog.setMessage(description);
-          alertDialog.setButton(0, "OK", new DialogInterface.OnClickListener() {
+          alertDialog.setNeutralButton("OK", new DialogInterface.OnClickListener() {
               @Override
               public void onClick(DialogInterface dialog, int which) {
 
               }
           });
           alertDialog.show();
+
+
+
+
 
       }
 
