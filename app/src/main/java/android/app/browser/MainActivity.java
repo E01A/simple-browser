@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     WebSettings settings;
     private long pressedTime;
    
-    private ProgressDialog progressBar;
+    ProgressBar progressBar;
 
  @SuppressLint("RtlHardcoded")
  @Override
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
 
     webView = (WebView) findViewById(R.id.webView);
     webView.setBackgroundColor(Color.TRANSPARENT);
-
+    progressBar = findViewById(R.id.progressBar);
      customViewContainer = (FrameLayout) findViewById(R.id.customViewContainer);
      imgview = (ImageView) findViewById(R.id.imgview);
      mWebChromeClient = new myWebChromeClient();
@@ -363,7 +363,7 @@ public class MainActivity extends AppCompatActivity {
       viewAdded = false;
       imgview.setVisibility(View.GONE);
       
-      progressBar = ProgressDialog.show(MainActivity.this,null,"   Please Wait ...");
+      
       settings = webView.getSettings();
       settings.setUserAgentString(ua);
       settings.setJavaScriptEnabled(true);
@@ -488,9 +488,9 @@ public class MainActivity extends AppCompatActivity {
       public void onPageFinished(WebView view, String url) {
         if (!redirect) {
             loadingFinished = true;
-            if (progressBar.isShowing()){
-                progressBar.dismiss();
-            }
+         progressBar.setVisibility(View.GONE);
+
+            
         }
           super.onPageFinished(view, url);
     }
@@ -529,9 +529,9 @@ public class MainActivity extends AppCompatActivity {
             builder.setNegativeButton("Cancel", (dialog, which) -> {
                 dialog.cancel();
                 loadingFinished = true;
-                if (progressBar.isShowing()){
-                    progressBar.dismiss();
-                }
+                progressBar.setVisibility(View.GONE);
+                    
+                
                 handler.cancel();
 
             });
